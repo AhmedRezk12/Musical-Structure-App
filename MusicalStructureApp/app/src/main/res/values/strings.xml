@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="categories">categories</string>
+    <string name="collection_category">collection</string>
+    <string name="rap_category">rap</string>
+    <string name="collection_label">COLLECTION CATEGORY</string>
+    <string name="rap_label">RAP CATEGORY</string>
+    <string name="song_name">Song Name :</string>
+    <string name="artist_name">Artist Name :</string>
+    <string name="back2home">back to home</string>
+    <string name="playing">Playing Now</string>
+    <string name="previous">previous</string>
+</resources>

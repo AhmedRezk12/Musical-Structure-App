@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pr_source"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <SearchView
+        android:id="@+id/search_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_background"
+        />
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/home_playing_butt"
+    android:background="@drawable/rounded_background"
+    android:text="@string/playing"
+    android:textSize="24sp"
+    android:padding="8dp"
+    android:layout_marginTop="10dp"
+        android:onClick="GoToPlayingNowFromHome"
+    />
+    <TextView
+        android:id="@+id/categories_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/categories"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textAllCaps="true"
+        />
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:src="@drawable/istock"
+        android:onClick="GoToCollectionCategory"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/collection_category"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:onClick="GoToCollectionCategory"
+        android:textAllCaps="true"
+        />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:src="@drawable/rap"
+        android:onClick="GoToRapCategory"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rap_category"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:onClick="GoToRapCategory"
+        android:textAllCaps="true"
+        />
+
+
+</LinearLayout>
+</ScrollView>
